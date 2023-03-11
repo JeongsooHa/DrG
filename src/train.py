@@ -57,7 +57,7 @@ def main(args):
 		action_repeat=args.action_repeat,
 		image_size=args.image_size,
 		frame_stack=args.frame_stack,
-		mode='video_hard_test',
+		mode=args.eval_mode,
 		intensity=args.distracting_cs_intensity
 	)
 	# Create working directory
